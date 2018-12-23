@@ -16,7 +16,7 @@ public class CommonMethods extends BaseClass {
 		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
-	public static void click(WebElement element) {
+	public static void click(WebElement element) { 
 		WebElement elm = waiting(element);
 		elm.click();
 	}
